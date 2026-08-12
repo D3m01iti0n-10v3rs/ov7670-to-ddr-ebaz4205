@@ -1,0 +1,46 @@
+# Vivado generated directories
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Vivado logs / temporary files
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.wcfg
+*.dcp
+
+# Vivado backup files
+*.xpr~
+*.xpr.bak
+
+# Vitis / IDE generated files
+_ide/logs/
+_ide/.wsdata/
+
+# Build / export directories
+/build/
+export/
+
+# Generated hardware handoff files
+*.xsa
+
+# Other generated files
+*.o
+*.d
+*.bin
+*.pdi
+vitisWorkspace.json
+
+# IDE metadata
+_ide/.peers.ini
+_ide/settings.json
+_ide/workspace_journal.py
+
+# Vivado archive/summary
+archive_project_summary.txt

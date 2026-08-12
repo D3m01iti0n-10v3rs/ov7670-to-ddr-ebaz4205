@@ -1,0 +1,64 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.32412",
+   "Default View_TopLeft":"-100,-5",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 8 -x 2360 -y 80 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 8 -x 2360 -y 110 -defaultsOSRD
+preplace port IIC_0_0 -pg 1 -lvl 8 -x 2360 -y 140 -defaultsOSRD
+preplace port port-id_pclk_0 -pg 1 -lvl 0 -x 0 -y 580 -defaultsOSRD
+preplace port port-id_vsync_0 -pg 1 -lvl 0 -x 0 -y 860 -defaultsOSRD
+preplace port port-id_href_0 -pg 1 -lvl 0 -x 0 -y 830 -defaultsOSRD
+preplace port port-id_cam_rst_0 -pg 1 -lvl 8 -x 2360 -y 600 -defaultsOSRD
+preplace port port-id_cam_pwnn_0 -pg 1 -lvl 8 -x 2360 -y 630 -defaultsOSRD
+preplace port port-id_mclk_0 -pg 1 -lvl 8 -x 2360 -y 660 -defaultsOSRD
+preplace portBus d_0 -pg 1 -lvl 0 -x 0 -y 690 -defaultsOSRD
+preplace inst VideoCapture_0 -pg 1 -lvl 7 -x 2090 -y 620 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 290 -y 190 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 3 -x 560 -y 160 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 4 -x 920 -y 570 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 5 -x 1290 -y 340 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 4 -x 920 -y 140 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 7 -x 2090 -y 140 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 6 -x 1690 -y 130 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 6 -x 1690 -y 370 -defaultsOSRD
+preplace inst system_ila_1 -pg 1 -lvl 7 -x 2090 -y 810 -defaultsOSRD
+preplace inst system_ila_2 -pg 1 -lvl 7 -x 2090 -y 930 -defaultsOSRD
+preplace inst system_ila_3 -pg 1 -lvl 4 -x 920 -y 760 -defaultsOSRD
+preplace inst system_ila_8 -pg 1 -lvl 7 -x 2090 -y 1050 -defaultsOSRD
+preplace inst NOT_GATE_0 -pg 1 -lvl 1 -x 120 -y 180 -defaultsOSRD
+preplace netloc VideoCapture_0_cam_pwnn 1 7 1 NJ 630
+preplace netloc VideoCapture_0_cam_rst 1 7 1 2320J 600n
+preplace netloc VideoCapture_0_mclk 1 7 1 2310J 650n
+preplace netloc clk_wiz_0_clk_out1 1 2 5 390 270 770 320 1100 490 1530 490 1830
+preplace netloc clk_wiz_0_locked 1 2 1 N 200
+preplace netloc d_0_1 1 0 7 NJ 690 NJ 690 NJ 690 NJ 690 NJ 690 NJ 690 1870
+preplace netloc href_0_1 1 0 7 NJ 830 NJ 830 NJ 830 NJ 830 NJ 830 NJ 830 1880
+preplace netloc pclk_0_1 1 0 7 NJ 580 NJ 580 NJ 580 760 660 NJ 660 NJ 660 1840
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 3 4 780 380 1090 470 1550 500 1850
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 7 200 260 NJ 260 NJ 260 1070J 210 1540J 260 NJ 260 2310
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 8 40 270 NJ 270 380 10 NJ 10 NJ 10 NJ 10 NJ 10 2300
+preplace netloc vsync_0_1 1 0 7 NJ 860 NJ 860 NJ 860 NJ 860 NJ 860 NJ 860 1860
+preplace netloc NOT_GATE_0_y 1 1 1 NJ 180
+preplace netloc VideoCapture_0_m00_axis 1 3 5 790 480 NJ 480 NJ 480 NJ 480 2310
+preplace netloc axi_mem_intercon_M00_AXI 1 6 1 N 130
+preplace netloc axi_smc_M00_AXI 1 4 3 1070 200 1520J 540 NJ
+preplace netloc axi_smc_M01_AXI 1 4 1 1050 150n
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 5 1 1500 70n
+preplace netloc axis_data_fifo_0_M_AXIS 1 4 2 1110 460 1540
+preplace netloc processing_system7_0_DDR 1 7 1 2320J 80n
+preplace netloc processing_system7_0_FIXED_IO 1 7 1 NJ 110
+preplace netloc processing_system7_0_IIC_0 1 7 1 2320J 130n
+preplace netloc processing_system7_0_M_AXI_GP0 1 3 5 790 220 NJ 220 1510 250 NJ 250 2320
+levelinfo -pg 1 0 120 290 560 920 1290 1690 2090 2360
+pagesize -pg 1 -db -bbox -sgen -100 0 2490 1120
+"
+}
+{
+   "da_axi4_cnt":"4",
+   "da_board_cnt":"5",
+   "da_clkrst_cnt":"11",
+   "da_ps7_cnt":"1"
+}
